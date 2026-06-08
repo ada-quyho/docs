@@ -122,7 +122,6 @@ sequenceDiagram
 
 ## 5. User and role management
 
-![alt text](image.png)
 **Lifecycle (manual, tied to the joiner/leaver process):**
 
 | Step | Action |
@@ -201,3 +200,14 @@ still public, then flip it private last).
 Teleport Community license is free. Recurring: the node(s) running auth and proxy, the audit and
 session backend (S3 + DynamoDB), a NAT gateway, and a public DNS name with a TLS certificate. No
 VPN, no per-user access license.
+
+
+### Proof of Concept
+
+Teleport Access management UI
+
+![alt text](image.png)
+
+Query Result with account quyho
+
+![alt text](image-1.png)
